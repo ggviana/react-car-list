@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'proximanova-regular';
+  src: url('/static/proximanova-regular.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proximanova-thin';
+  src: url('/static/proximanova-thin.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(241,244,249);
+  font-family: 'proximanova-regular', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1050px;
+}
+
+.row {
+  margin: 20px 40px 0 
+}
+
+.main-header {
+  background-color: rgb(38,135,233);
+  height: 50px;
+}

@@ -1,0 +1,30 @@
+.form {
+  float: right;
+  border: 1px solid rgb(201,211,221);
+  border-radius: 4px;
+}
+
+.form-input,
+.form-button {
+  border: none;
+}
+
+.form-input {
+  border-right: 1px solid rgb(201,211,221);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 12px;
+  padding: 12px;
+}
+
+.form-button {
+  background-color: rgb(241,244,249);
+  cursor: pointer;
+  padding: 0 15px;
+  vertical-align: middle;
+}
+
+.icon {
+  display: block;
+  transform: rotate(-45deg);
+}

@@ -1,0 +1,19 @@
+.car-form label,
+.car-form input {
+  display: block;
+}
+
+.car-form input[type="text"],
+.car-form input[type="number"],
+.car-form select {
+  border: 1px solid rgb(201,211,221);
+  border-radius: 4px;
+  padding: 6px;
+  margin-bottom: 12px;
+  width: 60%;
+  background-color: white;
+}
+
+.car-form .heading {
+  font-size: 24px;
+}

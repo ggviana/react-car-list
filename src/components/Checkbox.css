@@ -1,0 +1,26 @@
+.checkbox input {
+  display: none;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid rgb(201,211,221);
+  border-radius: 2px;
+  cursor: pointer;
+  display: block;
+  height: 16px;
+  width: 16px;
+}
+
+.tick {
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.checked .tick {
+  visibility: visible;
+}
